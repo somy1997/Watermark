@@ -4,7 +4,7 @@ Python script to add a watermark or logo to images
 ### Requirements
 Pillow:
 ```
-pip install pillow
+pip3 install Pillow
 ```
 
 [Pillow Docs](https://python-pillow.github.io/)
@@ -30,13 +30,13 @@ To use watermark.py without specifying a position:
 
 
 ```
-python watermark.py  './images' 'logo.png'
+python3 watermark.py  './images' 'logo.png'
 ```
 
 To use watermark.py and specify a position:
 
 ```
-python watermark.py  './images' 'logo.png' bottomright
+python3 watermark.py  './images' 'logo.png' bottomright
 ```
 
 ### Adapting
